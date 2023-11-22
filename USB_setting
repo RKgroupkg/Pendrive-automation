@@ -1,0 +1,33 @@
+{
+  "Copy": "False",
+  "source_folder": "files_inject",
+  "destination_folder": "None",
+  "Pop_up": "True",
+  "Open_explorer": "True",
+  "allowed_users": ["user1", "user2", "user3"],
+  "actions": [
+    {
+      "type": "key",
+      "key": "win+r",
+      "duration": 0.2
+    },
+    {
+      "type": "text",
+      "text": "notepad",
+      "interval": 0.2
+    },
+    {
+      "type": "key",
+      "key": "enter",
+      "duration": 0.2
+    },
+    {
+      "type": "text",
+      "key": "Hello rishu",
+      "duration": 0.3
+
+
+    }
+  ]
+
+}
